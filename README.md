@@ -28,7 +28,7 @@ cd hex-tool
 chmod +x *
 
 # Exécuter le script
-bash hextech.sh
+bash tga.sh
 
 🔥 Fonctionnalités
 
