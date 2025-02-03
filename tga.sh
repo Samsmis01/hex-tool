@@ -115,10 +115,12 @@ bash tga.sh
 
 ## Hatalı kod
 
+if [ condition ]; then
+    # instructions
 else   
-	clear
-        echo -e '\033[36;40;1m Hatalı Kod Girdiniz'	
-	sleep 1
-	clear 
-	bash tga.sh
+    clear
+    echo -e "\033[36;40;1m Hatalı Kod Girdiniz"	
+    sleep 1
+    clear 
+    bash tga.sh
 fi
